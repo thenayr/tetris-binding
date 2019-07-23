@@ -1,0 +1,606 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {
+      "/actions/legacy/in/head_proximity" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis2_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis2_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis3_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis3_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis3_value_e0" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis3_value_e1" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis4_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis4_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis4_value_e0" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_axis4_value_e1" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_system_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/left_system_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_axis3_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_axis3_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_axis3_value_e0" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_axis3_value_e1" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_axis4_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_axis4_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_axis4_value_e0" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_axis4_value_e1" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_system_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy/in/right_system_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis2_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis2_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis3_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis3_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis3_value_e0" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis3_value_e1" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis4_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis4_touch" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis4_value_e0" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/axis4_value_e1" : {
+         "alias_name" : "",
+         "hidden" : true
+      },
+      "/actions/legacy_mirrored/in/system_press" : {
+         "alias_name" : "",
+         "hidden" : true
+      }
+   },
+   "app_key" : "system.generated.tetriseffect-win64-shipping.exe",
+   "bindings" : {
+      "/actions/legacy" : {
+         "haptics" : [
+            {
+               "output" : "/actions/legacy/out/left_haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/legacy/out/right_haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
+         "poses" : [
+            {
+               "output" : "/actions/legacy/in/Left_Pose",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/legacy/in/Right_Pose",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/left_system_press"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/system"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/right_system_press"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/system"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/right_grip_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_grip_touch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/left_grip_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_grip_touch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/left_applicationmenu_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_applicationmenu_touch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/b"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/right_applicationmenu_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_applicationmenu_touch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/b"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/left_axis0_press"
+                  },
+                  "position" : {
+                     "output" : "/actions/legacy/in/left_axis0_value"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_axis0_touch"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/right_axis0_press"
+                  },
+                  "position" : {
+                     "output" : "/actions/legacy/in/right_axis0_value"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_axis0_touch"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/legacy/in/right_axis1_value"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_axis1_touch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/simactions/6"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {
+                  "click_activate_threshold" : "0.55",
+                  "click_deactivate_threshold" : "0.5",
+                  "haptic_amplitude" : "0",
+                  "touch_activate_threshold" : "0.1",
+                  "touch_deactivate_threshold" : "0.05"
+               },
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/right_axis1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_axis1_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {
+                  "click_activate_threshold" : "0.55",
+                  "click_deactivate_threshold" : "0.5",
+                  "haptic_amplitude" : "0",
+                  "touch_activate_threshold" : "0.1",
+                  "touch_deactivate_threshold" : "0.05"
+               },
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/left_axis0_press"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/right_axis0_press"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/left_grip_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_grip_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {
+                  "click_activate_threshold" : "0.8",
+                  "force_input" : "force"
+               },
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/right_grip_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_grip_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {
+                  "click_activate_threshold" : "0.8",
+                  "force_input" : "force"
+               },
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/simactions/9"
+                  },
+                  "south" : {
+                     "output" : "/simactions/8"
+                  },
+                  "west" : {
+                     "output" : "/simactions/7"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/simactions/11"
+                  },
+                  "west" : {
+                     "output" : "/simactions/10"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/hand/right/input/thumbstick"
+            }
+         ]
+      },
+      "/actions/legacy_mirrored" : {
+         "haptics" : [
+            {
+               "output" : "/actions/legacy_mirrored/out/haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/legacy_mirrored/out/haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
+         "poses" : [
+            {
+               "output" : "/actions/legacy_mirrored/in/pose",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/legacy_mirrored/in/pose",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy_mirrored/in/axis1_press"
+                  },
+                  "pull" : {
+                     "output" : "/actions/legacy_mirrored/in/axis1_value"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy_mirrored/in/axis1_touch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy_mirrored/in/axis1_press"
+                  },
+                  "pull" : {
+                     "output" : "/actions/legacy_mirrored/in/axis1_value"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy_mirrored/in/axis1_touch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/legacy_mirrored/in/axis0_value"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy_mirrored/in/axis0_touch"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/legacy_mirrored/in/axis0_value"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy_mirrored/in/axis0_touch"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {},
+               "mode" : "joystick",
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {},
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy_mirrored/in/grip_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy_mirrored/in/grip_touch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy_mirrored/in/grip_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy_mirrored/in/grip_touch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy_mirrored/in/applicationmenu_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy_mirrored/in/applicationmenu_touch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/b"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy_mirrored/in/applicationmenu_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy_mirrored/in/applicationmenu_touch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/b"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy_mirrored/in/axis0_press"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy_mirrored/in/axis0_press"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trackpad"
+            }
+         ]
+      }
+   },
+   "category" : "legacy",
+   "controller_type" : "knuckles",
+   "description" : "Use left controller joystick to move blocks left / right.  Down on left joystick will softdrop.  Left trigger will hard drop.   \n\nRight controller joystick will rotate left/right",
+   "name" : "My TetrisEffect-Win64-Shipping.exe configuration for Index Controller",
+   "options" : {
+      "mirror_actions" : false,
+      "simulated_controller_type" : "none"
+   },
+   "simulated_actions" : [
+      {
+         "id" : 6,
+         "name" : "left up",
+         "output" : "left",
+         "position_x" : -0.005884562413922656,
+         "position_y" : 0.96945035682984848,
+         "type" : "fake_trackpad_click"
+      },
+      {
+         "id" : 7,
+         "name" : "left left",
+         "output" : "left",
+         "position_x" : -0.97546012269938653,
+         "position_y" : 0.0076374107925378798,
+         "type" : "fake_trackpad_click"
+      },
+      {
+         "id" : 8,
+         "name" : "left down",
+         "output" : "left",
+         "position_x" : 0.010141479904845374,
+         "position_y" : -0.97020157756354086,
+         "type" : "fake_trackpad_click"
+      },
+      {
+         "id" : 9,
+         "name" : "left right",
+         "output" : "left",
+         "position_x" : 0.93163891323400527,
+         "position_y" : -0.016902466508075698,
+         "type" : "fake_trackpad_click"
+      },
+      {
+         "id" : 10,
+         "name" : "right left",
+         "output" : "right",
+         "position_x" : -0.94571750563486101,
+         "position_y" : 0.010330578512396715,
+         "type" : "fake_trackpad_click"
+      },
+      {
+         "id" : 11,
+         "name" : "right right",
+         "output" : "right",
+         "position_x" : 0.94158527422990224,
+         "position_y" : 0.009954921111945958,
+         "type" : "fake_trackpad_click"
+      }
+   ]
+}
